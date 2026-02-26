@@ -1,0 +1,22 @@
+{
+  "name": "bank-transaction-system",
+  "version": "1.0.0",
+  "description": "A simple bank transaction system built with Node.js, Express, and MongoDB.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "node": "npx nodemon"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.0",
+    "nodemailer": "^8.0.1"
+  }
+}
